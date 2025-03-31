@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #faf8ef;
+}
+
+h1 {
+  color: #333;
+}
+
+#game-board {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  margin: auto;
+  background-color: #bbada0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.tile {
+  width: 90px;
+  height: 90px;
+  background-color: #eee4da;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 90px;
+  border-radius: 5px;
+}
